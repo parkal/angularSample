@@ -1,0 +1,29 @@
+<table class="table">
+    <thead>
+        <tr>
+            <td>Header</td>
+            <td>Data</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>FirstName</td>
+            <td>{{FirstName}}</td>
+        </tr>
+        <tr>
+            <td>LastName</td>
+            <td>{{LastName}}</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>{{Gender}}</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>{{Age}}</td>
+        </tr>
+    </tbody>
+</table>
+<button [disabled]='enableButton' >Click Here</button>
+<input type="radio" name="checkRadio1" [checked]='enableButton' value="checkRad1" > Enable
+<input type="radio" name="checkRadio2" [checked]='disableButton' value="checkRad2" > Disable
